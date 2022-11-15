@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@media only screen and (max-width: 750) {
+    body{
+    background: url("https://scontent.fhan6-1.fna.fbcdn.net/v/t1.15752-9/315231800_841979350559341_6671277027120725308_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=oXu1A-K1Wf0AX_f4XlY&_nc_ht=scontent.fhan6-1.fna&oh=03_AdSWOGoCMokGES4HpWhNUmrprE4lTT9IfOh8lKbomSIaVg&oe=639B172C") top
+    center/ cover no-repeat;
 
+    }
+  }
 body {
     background-image: url("https://scontent.fhan6-1.fna.fbcdn.net/v/t1.15752-9/312951397_1828780344125841_6273467504746546264_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=VLEmdyYu4hgAX_2o4u1&_nc_ht=scontent.fhan6-1.fna&oh=03_AdQ9Q6zx-t6gN9hJq7fXjLEcAYHy82QTuXk-b7IB8pbZtw&oe=639AEAD8");
     /* background-image: 800px; */
