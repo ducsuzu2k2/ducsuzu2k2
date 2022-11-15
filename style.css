@@ -2,15 +2,19 @@
 
 body {
     background-image: url("https://scontent.fhan6-1.fna.fbcdn.net/v/t1.15752-9/312951397_1828780344125841_6273467504746546264_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=VLEmdyYu4hgAX_2o4u1&_nc_ht=scontent.fhan6-1.fna&oh=03_AdQ9Q6zx-t6gN9hJq7fXjLEcAYHy82QTuXk-b7IB8pbZtw&oe=639AEAD8");
-    background-image: 800px;
+    /* background-image: 800px; */
+    background: url("https://scontent.fhan6-1.fna.fbcdn.net/v/t1.15752-9/312951397_1828780344125841_6273467504746546264_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=VLEmdyYu4hgAX_2o4u1&_nc_ht=scontent.fhan6-1.fna&oh=03_AdQ9Q6zx-t6gN9hJq7fXjLEcAYHy82QTuXk-b7IB8pbZtw&oe=639AEAD8") top
+    center/ cover no-repeat;
     background-color: pink;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 span {
     text-transform: uppercase;
 }
 .container {
-    width: 800px;
-    height: 100%;
+    /* width: 800px; */
+    /* height: 100vh; */
     padding: 10px;
     margin: 0 auto;
     position: relative;
@@ -216,8 +220,9 @@ span {
 /* Avatar  */
 .avatar {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    bottom: 60%;
+    /* right: 0; */
     left: calc(50% - 100px);
 }
 
