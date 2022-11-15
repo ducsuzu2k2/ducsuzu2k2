@@ -1,20 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
-    background-image: -webkit-gradient(
-        radial,
-        50% 50%,
-        0,
-        50% 50%,
-        100,
-        color-stop(0%, #374566),
-        color-stop(100%, #010203)
-    );
-    background-image: -webkit-radial-gradient(#374566, #010203);
-    background-image: -moz-radial-gradient(#374566, #010203);
-    background-image: -o-radial-gradient(#374566, #010203);
-    background-image: radial-gradient(#374566, #010203);
-    font-family: 'Lobster', cursive;
+    background-image: url("https://scontent.fhan6-1.fna.fbcdn.net/v/t1.15752-9/312951397_1828780344125841_6273467504746546264_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=VLEmdyYu4hgAX_2o4u1&_nc_ht=scontent.fhan6-1.fna&oh=03_AdQ9Q6zx-t6gN9hJq7fXjLEcAYHy82QTuXk-b7IB8pbZtw&oe=639AEAD8");
+    background-image: 800px;
+    background-color: pink;
 }
 span {
     text-transform: uppercase;
@@ -230,12 +219,11 @@ span {
     position: absolute;
     top: 50%;
     left: calc(50% - 100px);
-    
 }
 
 .avatar__img {
     width: 400px;
-    height: 400px;
+    height: 500px;
     border-radius: 50%;
     border: 5px solid rgba(234, 15, 150, 0.9);
     box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
@@ -247,11 +235,13 @@ span {
 
 .avatar__title {
     cursor: pointer;
-    margin-top: -100px;
+    margin-top: -850px;
     -webkit-animation: balloon1 4s ease-in-out infinite;
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
     animation: balloon1 4s ease-in-out infinite;
+    font-size: 70px;
+    color: palevioletred;
 }
 .balloon > div:before {
     color: rgba(182, 15, 97, 0.9);
